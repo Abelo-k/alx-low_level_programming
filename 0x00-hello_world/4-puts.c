@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-char str[] = "Programing is like building a multilingual puzzle \n";
+char str[] = "\"Programing is like building a multilingual puzzle \n";
 
 puts(str);
 
-return(0);
+return (0);
 }
