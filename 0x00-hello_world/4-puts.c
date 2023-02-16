@@ -7,5 +7,5 @@ int main(void)
 {
 char str[] = "Programing is like building a multilingual puzzle \n";
 
-puts(str)
+puts(str);
 }
