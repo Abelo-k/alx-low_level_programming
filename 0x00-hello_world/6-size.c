@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 /**
  * main - Entry point
  * Return: 0 (Succesful)
