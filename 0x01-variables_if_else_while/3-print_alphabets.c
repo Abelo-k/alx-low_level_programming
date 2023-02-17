@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
+#include <ctype.h>
 /**
  * main - prints alphabets
  *
@@ -10,6 +11,7 @@
 int main(void)
 {
 	char a = 'A';
+	char b = tolower(a);
 
 	for (a = 'A'; a <= 'Z'; a++)
 	{
