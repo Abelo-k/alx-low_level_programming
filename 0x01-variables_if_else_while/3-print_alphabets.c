@@ -11,7 +11,6 @@
 int main(void)
 {
 	char a = 'A';
-	char b = tolower(a);
 
 	for (a = 'A'; a <= 'Z'; a++)
 	{
