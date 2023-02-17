@@ -10,10 +10,9 @@
  */
 int main(void)
 {
-	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int b = 0;
+	char a = 'A';
 
-	for (b = 0; b < 27; b++)
+	for (a = 'A'; a <= 'Z'; a++)
 	{
 		putchar(tolower(a));
 	}
