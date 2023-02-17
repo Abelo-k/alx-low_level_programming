@@ -15,7 +15,7 @@ int main(void)
 
 	for (b = 0; b < 27; b++)
 	{
-		putchar(tolower(a);
+		putchar(tolower(a));
 	}
 
 	putchar('\n');
