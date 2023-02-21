@@ -4,18 +4,17 @@
  * _islower - checks if a letter is lower
  * @c : the number to be checked
  *
- * Return: 1(success)
+ * Return: 0(success)
  */
 int _islower(int c)
 {
 	if (c == islower(c))
 	{
 		_putchar(1 + '0');
-		return (1);
 	}
 	else
 	{
 		_putchar(0 + '0');
-		return (0);
 	}
+	return (0);
 }
