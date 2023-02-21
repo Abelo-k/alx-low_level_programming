@@ -8,8 +8,8 @@
  */
 int _islower(int c)
 {
-	if (c == tolower(c))
-		return (1);
+	if (c == islower(c))
+		_putchar(1 + '0');
 	else
-		return (0);
+		_putchar(0 + '0');
 }
