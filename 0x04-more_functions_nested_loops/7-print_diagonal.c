@@ -5,26 +5,24 @@
  */
 void print_line(int n)
 {
-	int a;
-	int b;
-
 	if (n <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		for (a = 1; a <= n ; a++)
+		int i, j;
+
+		for (i = 0; i < n ; i++)
 		{
-			for (b = 1; b <= n; b++)
+			for (j = 0; j < n ; j++)
 			{
-				if (b == a)
+				if (j == i)
 					_putchar('\\');
-				else if (b < a)
+				else if (j < i)
 					_putchar(' ');
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
-}
-
