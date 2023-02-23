@@ -21,7 +21,7 @@ void print_line(int n)
 				if (b == a)
 					_putchar('\\');
 				else if (b < a)
-					_putchiar('');
+					_putchiar(' ');
 		}
 		_putchar('\n');
 	}
