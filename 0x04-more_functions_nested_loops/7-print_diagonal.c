@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * print_line - prints n times of _
- * @n: the amount to print _
+ * print_diagonal - prints n times of \
+ * @n: the amount to print \
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 
