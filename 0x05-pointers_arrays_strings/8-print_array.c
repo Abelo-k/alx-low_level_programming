@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - prints elements of array
  * @n: sizeof array
@@ -18,5 +19,5 @@ void print_array(int *a, int n)
 			continue;
 		printf(", ");
 	}
-	printf('\n');
+	printf("\n");
 }
