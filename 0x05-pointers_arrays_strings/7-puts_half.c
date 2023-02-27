@@ -9,7 +9,7 @@ void puts_half(char *str)
 {
 	char *ch = str;
 	int count = 0;
-	int num , a;
+	int num, a;
 
 	while (*ch != '\0')
 	{
@@ -18,7 +18,7 @@ void puts_half(char *str)
 	}
 	num = (count / 2);
 
-	if(count % 2 != 0)
+	if (count % 2 != 0)
 		num = ((count + 1) / 2);
 
 	for (a = num; str[a] != '\0'; a++)
