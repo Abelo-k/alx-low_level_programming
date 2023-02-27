@@ -8,7 +8,7 @@
  */
 int main (void)
 {
-	int key;
+	int key[8];
 	int i, j;
 
 	srand(time(NULL));
