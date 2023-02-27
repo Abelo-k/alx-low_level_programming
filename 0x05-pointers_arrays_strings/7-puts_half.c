@@ -16,10 +16,10 @@ void puts_half(char *str)
 		count++;
 		ch++;
 	}
-	if(count % 2 != 0)
+	if (count % 2 != 0)
 		count = count - 1;
 
-	for (num = 0; num < count; num++)
+	for (num = 0; num <= count; num++)
 	{
 		if (num >= count / 2)
 			_putchar(str[num]);
