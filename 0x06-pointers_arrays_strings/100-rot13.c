@@ -15,7 +15,7 @@ char *rot13(char *ptr)
 
 	for (i = 0; ptr[i] != '\0'; i++)
 	{
-		for (j = 0; rot13[j] != '\0'; j++)
+		for (j = 0; str[j] != '\0'; j++)
 		{
 			if (ptr[i] == str[j])
 			{
