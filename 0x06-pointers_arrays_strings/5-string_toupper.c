@@ -6,15 +6,15 @@
  *
  * Return: @ptr
  */
-char *string_toupper(char *ptr)
+char *string_toupper(char *s)
 {
 	int i;
 
-	for (i = 0; ptr[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (ptr[i] >= 'a' && ptr[i] <= 'z')
+		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			ptr[i] = ptr[i] - 32;
+			s[i] = s[i] - 32;
 		}
 	}
 	return (ptr);
