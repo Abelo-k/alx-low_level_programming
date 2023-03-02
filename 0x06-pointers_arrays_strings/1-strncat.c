@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat - concatenates two string 
+ * _strncat - concatenates two string
  * @dest: destination
  * @src: source
  * @n: byte
@@ -17,7 +17,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		++len;
 	}
-	for (i = 0; src[i] >= n; ++i, ++len)
+	for (i = 0; src[i] <= n; ++i, ++len)
 	{
 		dest[len] = src[i];
 	}
