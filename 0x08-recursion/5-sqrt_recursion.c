@@ -3,9 +3,11 @@
 /**
  * _sqrt_recursion - returns square root of a number
  * @n: integer
+ * @i: integer
  *
  * Return: sqrtof n
  */
+int square_root(int n, int i);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
