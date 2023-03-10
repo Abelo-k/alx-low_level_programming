@@ -12,6 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int i, sum = 0;
+	i = 1;
 
 	if (argc - 1 == 0)
 	{
@@ -19,7 +20,7 @@ int main(int argc, char *argv[])
 	}
 	else if (argc - 1 > 0)
 	{
-		for (i = 0; i < argc; i++)
+		while(i < argc)
 		{
 			if (isdigit(argv[i]))
 			{
@@ -30,6 +31,7 @@ int main(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
+			i++;
 		}
 		printf("%d\n", sum); 
 	}
