@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <ctype.h>
+#include <stdlib.h>
+
+/**
+ * main - adds arguments
+ * @argc: size of argument
+ * @argv: argument
+ *
+ * Return: 0
+ */
+int main(int argc, char *argv[])
+{
+	int i, sum = 0, num;
+
+	if (argc - 1 == 0)
+	{
+		printf("%d\n", 0);
+	}
+	else if (argc - 1 > 0)
+	{
+		for (i = 0; i < argc; i++)
+		{
+			if (isdigit(argv[i]))
+			{
+			sum = sum + atoi(argv[i]);
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		printf("%d\n", sum); 
+	}
+	return (0);
+}
